@@ -1,7 +1,6 @@
 #!/usr/bin/python3
  
 from googlesearch import search
-import webbrowser
 
 topic=input("Enter a topic to search :")
 	
