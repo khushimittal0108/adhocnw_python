@@ -19,6 +19,8 @@ if int(d.strftime("%m")) > mm :
 elif int(d.strftime("%m")) == mm :
 	if int(d.strftime("%d")) >= dd :
 		year=cur_year+95-age
+	else :
+		year=cur_year+95-age-1
 else :
 	year=cur_year+95-age-1
 
