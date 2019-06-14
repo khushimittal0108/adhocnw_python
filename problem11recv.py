@@ -4,13 +4,11 @@ import socket
 
 recv_ip="127.0.0.1"
 recv_port=4545
-time=100
 #you can assign any free port ,to see used udp ports use netstat -nulp
 
 s=socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
 #use these for ip type v4 and udp 
 
-s.settimeout(time)
 #fitting ip and port with udp socket
 #remember ip address + port = socket
 s.bind((recv_ip,recv_port))
