@@ -2,7 +2,7 @@
 
 import socket
 
-local_ip="127.0.0.1"
+local_ip="127.0.0.1"             #Enter the Reciever's IP here 
 local_port=4545
 #you can assign any free port ,to see used udp ports use netstat -nulp
 
