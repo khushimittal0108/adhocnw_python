@@ -2,7 +2,7 @@
 
 import socket
 
-recv_ip="127.0.0.1"
+recv_ip="127.0.0.1"       #Enter the Reciever's ip here
 recv_port=4545
 #you can assign any free port ,to see used udp ports use netstat -nulp
 
